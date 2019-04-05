@@ -1,8 +1,8 @@
 {
-  "name": "js-task-boilerplate",
+  "name": "get-value-at-zero",
   "version": "1.0.0",
-  "description": "js task boilerplate",
-  "main": "src/sum.js",
+  "description": "Implementation of getValueAtZero function",
+  "main": "src/getValueAtZero.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"
