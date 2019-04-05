@@ -3,17 +3,19 @@
 /**
  * Implement getValueAtZero function:
  *
- * it takes another function 'f' and it's value with 0 as argument
+ * it takes another function 'initialFunction' and it's value with 0 as argument
  *
- * @param {function} f
+ * @param {function} initialFunction
  *
  * @return {function}
  *
- * f = x => x + 5;
+ * const initialFunction = function(x) {
+ *     return x + 5
+ * };
  * getValueAtZero(f) === 5;
  *
  */
-function getValueAtZero(f) {
+function getValueAtZero(initialFunction) {
   // write code here
 }
 
