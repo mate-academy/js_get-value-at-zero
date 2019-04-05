@@ -12,7 +12,7 @@
  * const initialFunction = function(x) {
  *     return x + 5
  * };
- * getValueAtZero(f) === 5;
+ * getValueAtZero(initialFunction) === 5;
  *
  */
 function getValueAtZero(initialFunction) {
