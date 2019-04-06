@@ -1,4 +1,4 @@
-# Boilerplate for JS tasks
+# Get value at zero
 
 **Read the guideline before start**
 
