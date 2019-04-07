@@ -5,17 +5,16 @@
  *
  * it takes another function 'initialFunction' and it's value with 0 as argument
  *
- * @param {function} initialFunction
- *
- * @return {function}
- *
  * const initialFunction = function(x) {
  *     return x + 5
  * };
  * getValueAtZero(initialFunction) === 5;
  *
+ * @param {function} callback
+ *
+ * @return {function}
  */
-function getValueAtZero(initialFunction) {
+function getValueAtZero(callback) {
   // write code here
 }
 
