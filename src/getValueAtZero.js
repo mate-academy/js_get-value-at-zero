@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Implement getValueAtZero function:
  *
  * it takes another function 'initialFunction' and it's value with 0 as argument
@@ -14,8 +14,8 @@
  *
  * @return {function}
  */
-function getValueAtZero(callback) {
-  // write code here
+function getValueAtZero(initialFunction) {
+  return initialFunction(0);
 }
 
 module.exports = getValueAtZero;
