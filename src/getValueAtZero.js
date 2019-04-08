@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/*
  * Implement getValueAtZero function:
  *
  * it takes another function 'initialFunction' and it's value with 0 as argument
@@ -15,8 +15,8 @@
  * @return {function}
  */
 function getValueAtZero(callback) {
-  const calculate = callback;
-  return calculate(0);
+  const zero = 0;
+  return callback(zero);
 }
 
 module.exports = getValueAtZero;
