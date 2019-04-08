@@ -15,7 +15,10 @@
  * @return {function}
  */
 function getValueAtZero(callback) {
-  // write code here
+  // write code here;
+  let newFunction = callback;
+
+  return newFunction(0);
 }
 
 module.exports = getValueAtZero;
