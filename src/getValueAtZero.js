@@ -14,8 +14,13 @@
  *
  * @return {function}
  */
-function getValueAtZero(callback) {
-  // write code here
+function getValueAtZero(initialFunction) {
+  return initialFunction(0);
 }
+
+const initialFunction = function(x) {
+  return x + 5;
+};
+initialFunction(0);
 
 module.exports = getValueAtZero;
