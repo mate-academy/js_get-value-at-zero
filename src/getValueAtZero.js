@@ -14,13 +14,9 @@
  *
  * @return {function}
  */
-const initialFunction = x => x + 5;
-
 function getValueAtZero(callbackX) {
   // write code here
 
   return callbackX(0);
 }
-
-getValueAtZero(initialFunction);
 module.exports = getValueAtZero;
