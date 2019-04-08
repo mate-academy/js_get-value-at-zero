@@ -10,11 +10,11 @@
  * };
  * getValueAtZero(initialFunction) === 5;
  *
- * @param {function} callback
+ * @param {function} initialFunction
  *
  * @return {function}
  */
-function getValueAtZero(callback) {
+function getValueAtZero(initialFunction) {
   // write code here
 }
 
