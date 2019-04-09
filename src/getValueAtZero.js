@@ -14,11 +14,9 @@
  *
  * @return {function}
  */
-function getValueAtZero(callback) {
+function getValueAtZero(initialFunction) {
   // write code here;
-  let newFunction = callback;
-
-  return newFunction(0);
+  return initialFunction(0);
 }
 
 module.exports = getValueAtZero;
