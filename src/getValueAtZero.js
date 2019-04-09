@@ -3,7 +3,8 @@
 /**
  * Implement getValueAtZero function:
  *
- * it takes another function 'initialFunction' and it's value with 0 as argument
+ * it takes another function 'initialFunction' and returns it's value with 0 as
+ * argument
  *
  * const initialFunction = function(x) {
  *     return x + 5
