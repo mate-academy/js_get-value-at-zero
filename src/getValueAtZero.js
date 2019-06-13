@@ -15,8 +15,15 @@
  *
  * @return {function}
  */
+
+const initialFunction = function(x) {
+  return x + 5;
+};
+
 function getValueAtZero(initialFunction) {
-  // write code here
+  return initialFunction(0);
 }
+
+getValueAtZero(initialFunction);
 
 module.exports = getValueAtZero;
