@@ -16,6 +16,8 @@
  * @return {function}
  */
 function getValueAtZero(initialFunction) {
+  const zeroValue = 0;
+  return initialFunction(zeroValue);
   // write code here
 }
 
