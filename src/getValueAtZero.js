@@ -15,6 +15,6 @@
  *
  * @return {function}
  */
-const getValueAtZero = (initialFunction) => initialFunction(0);
+const getValueAtZero = initialFunction => initialFunction(0);
 
 module.exports = getValueAtZero;
