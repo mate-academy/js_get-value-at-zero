@@ -15,7 +15,6 @@
  *
  * @return {function}
  */
-
 function getValueAtZero(initialFunction) {
   return initialFunction(0);
 }
