@@ -1,4 +1,7 @@
 {
+  "jest": {
+    "testEnvironment": "node"
+  },
   "name": "get-value-at-zero",
   "version": "1.0.0",
   "description": "Implementation of getValueAtZero function",
