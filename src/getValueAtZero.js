@@ -16,7 +16,9 @@
  * @return {function}
  */
 function getValueAtZero(initialFunction) {
-  // write code here
+  const result = initialFunction(0);
+
+  return result;
 }
 
 module.exports = getValueAtZero;
