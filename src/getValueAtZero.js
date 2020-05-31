@@ -1,5 +1,5 @@
 'use strict';
-/* eslint-disable */
+
 /**
  * Implement getValueAtZero function:
  *
@@ -16,7 +16,7 @@
  * @return {function}
  */
 function getValueAtZero(initialFunction) {
-return initialFunction(0);
+  return initialFunction(0);
 }
 
 module.exports = getValueAtZero;
