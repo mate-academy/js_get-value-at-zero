@@ -17,6 +17,8 @@
  */
 function getValueAtZero(initialFunction) {
   // write code here
+  const initialArgument = 0;
+  return initialFunction(initialArgument);
 }
 
 module.exports = getValueAtZero;
